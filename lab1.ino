@@ -21,7 +21,7 @@ void indicate_dry()
 void indicate_moist()
 {
   digitalWrite(LED_PIN, LOW);
-  Serial.println("Thank You, Jason!"); 
+  Serial.println("Thank You, FightingMan!"); 
 }
 void setup()
 {
