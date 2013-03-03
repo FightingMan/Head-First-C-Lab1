@@ -23,6 +23,7 @@ void indicate_moist()
   digitalWrite(LED_PIN, LOW);
   Serial.println("Thank You, FightingMan!"); 
 }
+
 void setup()
 {
   Serial.begin(SERIAL_BAUD_RATE);
