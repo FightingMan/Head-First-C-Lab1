@@ -13,6 +13,7 @@ boolean needs_water() {
     return false;
   }
 }
+
 void indicate_dry()
 {
   digitalWrite(LED_PIN, HIGH);
